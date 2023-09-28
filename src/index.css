@@ -1,0 +1,47 @@
+body{  
+  margin: 0;
+  padding: 0;
+  height: 90%;
+  
+}
+.yash{
+  background: url("../public/images/Bground.jpg" )no-repeat;
+  background-size: cover;
+  
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  backdrop-filter: blur(1000px);
+  color: white;
+  padding: 10px 20px;
+}
+.want{
+  background: transparent;
+  backdrop-filter: blur(10001px);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-tel-input .form-control{
+  @apply !w-full py-6 !text-base
+}
+.otp-container{
+  @apply flex justify-between gap-2;
+}
+.otp-container input{
+  @apply !mr-0 flex-1 py-5 outline-none;
+}
+
+/* =============================
+==========footer============= */
+
+.footer {
+  color: white;
+  margin-top: 0;
+  padding: 20px;
+  background: transparent;   
+}
